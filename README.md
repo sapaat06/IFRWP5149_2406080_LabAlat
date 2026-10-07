@@ -2,6 +2,10 @@
 
 ### Mahasiswa Teknik Informatika
 
+- NIM       : 2406080
+- Nama      : Sapaat
+- Pertemuan : 2 Unified Modelling Language (UML)
+
 - 🔭 I'm currently working on **Praktikum Analisis dan Desain Berorientasi Objek**
 
 - 🌱 I'm currently learning **Pemodelan UML**
