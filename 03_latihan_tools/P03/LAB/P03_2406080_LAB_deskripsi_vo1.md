@@ -1,0 +1,11 @@
+|       Elemen       |                           LAB-UC0—Ajukanpeminjaman                            |
+|--------------------|-------------------------------------------------------------------------------|
+|       Tujuan       |               Menghasilkan pengajuan peminjaman yang tersimpan                |
+|     Aktorutama     |                                   Mahasiswa                                   |
+|  Sumberkebutuhan   |                              LAB-R03 dan LAB-R04                              |
+|       Pemicu       |                 Mahasiswa memilih fungsi pengajuan peminjaman                 |
+|     Prasyarat      |            Mahasiswa telah terautentikasi; data peralatan tersedia            |
+|Pascakondisiberhasil|        Pengajuan tersimpan dengan nomor dan status Menunggu keputusan         |
+|    Pascakondisi    |        gagal Tidak ada pengajuan baru yang berhasil tersimpan Include         |
+|     Extension      |point LAB-UC04 — Periksa ketersediaan Bukti pengajuan tersedia, pada langkah 6 |
+|       Extend       |                    LAB-UC05 jika [mahasiswa memilih cetak]                    |

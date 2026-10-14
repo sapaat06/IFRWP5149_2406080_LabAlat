@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram name="P03_SIA_usecase_v02" id="p03sia">
+        <mxGraphModel dx="857" dy="615" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="560" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="frame" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;width=380;height=40;fontSize=11;fontStyle=1;" value="Sistem Informasi Akademik – Pengajuan dan Persetujuan KRS" vertex="1">
+                    <mxGeometry height="500" width="500" x="230" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="A0" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Mahasiswa" vertex="1">
+                    <mxGeometry height="60" width="30" x="95" y="300" as="geometry"/>
+                </mxCell>
+                <mxCell id="A1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Dosen Wali" vertex="1">
+                    <mxGeometry height="60" width="30" x="845" y="410" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC01" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Ajukan KRS" vertex="1">
+                    <mxGeometry height="64" width="150" x="285" y="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC02" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validasi KRS" vertex="1">
+                    <mxGeometry height="64" width="150" x="535" y="198" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC03" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Unduh bukti&lt;br&gt;pengajuan KRS" vertex="1">
+                    <mxGeometry height="64" width="150" x="285" y="408" as="geometry"/>
+                </mxCell>
+                <mxCell id="UC04" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Proses keputusan&lt;br&gt;KRS" vertex="1">
+                    <mxGeometry height="64" width="150" x="535" y="408" as="geometry"/>
+                </mxCell>
+                <mxCell id="e1" edge="1" parent="1" source="A0" style="endArrow=none;html=1;" target="UC01">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e2" edge="1" parent="1" source="A0" style="endArrow=none;html=1;" target="UC03">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="e4" edge="1" parent="1" source="A1" style="endArrow=none;html=1;" target="UC04">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="inc" edge="1" parent="1" source="UC01" style="endArrow=open;endFill=0;dashed=1;html=1;" target="UC02" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ext" edge="1" parent="1" source="UC03" style="endArrow=open;endFill=0;dashed=1;html=1;" target="UC01" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
