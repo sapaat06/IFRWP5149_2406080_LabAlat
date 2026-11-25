@@ -4,7 +4,7 @@
 
 - NIM       : 2406080
 - Nama      : Sapaat
-- Pertemuan : 2 Unified Modelling Language (UML)
+- Pertemuan : 7 sequence Diagram
 
 - 🔭 I'm currently working on **Praktikum Analisis dan Desain Berorientasi Objek**
 

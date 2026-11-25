@@ -1,0 +1,187 @@
+<mxfile host="65bd71144e">
+    <diagram id="8WCutCTvOWbmYvp9SSJP" name="Page-1">
+        <mxGraphModel dx="921" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=10;fontFamily=Helvetica;fillColor=#ffe6cc;strokeColor=#d79b00;" value="Petugas Laboratorium" vertex="1">
+                    <mxGeometry height="28" width="150" x="148" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-3" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="223" y="98" as="sourcePoint"/>
+                        <mxPoint x="223" y="733" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=10;fontFamily=Helvetica;" value=":Sistem Peminjaman" vertex="1">
+                    <mxGeometry height="28" width="150" x="348" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-5" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="423" y="98" as="sourcePoint"/>
+                        <mxPoint x="423" y="733" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=10;fontFamily=Helvetica;" value=":Peminjaman" vertex="1">
+                    <mxGeometry height="28" width="150" x="548" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#666666;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="623" y="98" as="sourcePoint"/>
+                        <mxPoint x="623" y="733" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="583" width="12" x="417" y="127" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="15" width="12" x="617" y="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="15" width="12" x="617" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="15" width="12" x="617" y="560" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="15" width="12" x="617" y="640" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-13" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="1. membuka daftar pengajuan" vertex="1">
+                    <mxGeometry height="18" width="178" x="233" y="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-14" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="223" y="134" as="sourcePoint"/>
+                        <mxPoint x="417" y="134" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-15" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;fontSize=8;fontFamily=Helvetica;" value="2. ambilDaftarPengajuan(): hanya pengajuan berstatus Menunggu Keputusan" vertex="1">
+                    <mxGeometry height="32" width="178" x="435" y="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-16" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="188" as="sourcePoint"/>
+                        <mxPoint x="617" y="188" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-17" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="3. menampilkan daftar pengajuan" vertex="1">
+                    <mxGeometry height="17" width="178" x="233" y="204" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-18" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="417" y="224" as="sourcePoint"/>
+                        <mxPoint x="223" y="224" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-19" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="4. memilih pengajuan" vertex="1">
+                    <mxGeometry height="16" width="178" x="233" y="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-20" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="223" y="260" as="sourcePoint"/>
+                        <mxPoint x="417" y="260" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-21" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;fontSize=8;fontFamily=Helvetica;" value="5. cariPengajuan(): memeriksa keberadaan dan status pengajuan" vertex="1">
+                    <mxGeometry height="28" width="178" x="435" y="262" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-22" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="298" as="sourcePoint"/>
+                        <mxPoint x="617" y="298" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-23" parent="1" style="rounded=0;html=1;fillColor=none;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="112" width="290" x="163" y="318" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-24" parent="1" style="shape=card;size=8;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=9;flipV=1;fontFamily=Helvetica;" value="alt" vertex="1">
+                    <mxGeometry height="22" width="45" x="163" y="318" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-25" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="[pengajuan ditemukan dan berstatus Menunggu Keputusan]" vertex="1">
+                    <mxGeometry height="24" width="178" x="233" y="321" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-26" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="163" y="353" as="sourcePoint"/>
+                        <mxPoint x="449" y="353" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-27" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="[pengajuan tidak ditemukan atau status sudah berubah]" vertex="1">
+                    <mxGeometry height="24" width="178" x="233" y="356" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-28" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=top;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="menampilkan pesan pengajuan tidak ditemukan atau sudah diproses;&lt;br&gt;proses dihentikan" vertex="1">
+                    <mxGeometry height="30" width="178" x="233" y="382" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-29" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="417" y="416" as="sourcePoint"/>
+                        <mxPoint x="223" y="416" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-30" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;fillColor=#ffffff;strokeColor=#cccccc;spacingLeft=2;fontFamily=Helvetica;" value="6. menampilkan detail pengajuan" vertex="1">
+                    <mxGeometry height="17" width="178" x="233" y="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-31" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="417" y="460" as="sourcePoint"/>
+                        <mxPoint x="223" y="460" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-32" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;fillColor=#ffffff;strokeColor=#cccccc;spacingLeft=2;fontFamily=Helvetica;" value="7. memilih keputusan" vertex="1">
+                    <mxGeometry height="16" width="178" x="233" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-33" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="223" y="500" as="sourcePoint"/>
+                        <mxPoint x="417" y="500" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-34" parent="1" style="rounded=0;html=1;fillColor=none;strokeColor=#000000;fontFamily=Helvetica;" value="" vertex="1">
+                    <mxGeometry height="152" width="540" x="163" y="518" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-35" parent="1" style="shape=card;size=8;html=1;fillColor=#ffffff;strokeColor=#000000;fontStyle=1;fontSize=9;flipV=1;fontFamily=Helvetica;" value="alt" vertex="1">
+                    <mxGeometry height="22" width="45" x="163" y="518" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-36" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="[petugas menyetujui]" vertex="1">
+                    <mxGeometry height="14" width="178" x="233" y="521" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-37" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;fontSize=8;fontFamily=Helvetica;" value="8. prosesKeputusan(): mengubah status menjadi Disetujui" vertex="1">
+                    <mxGeometry height="28" width="178" x="435" y="536" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-38" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="568" as="sourcePoint"/>
+                        <mxPoint x="617" y="568" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-39" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="163" y="593" as="sourcePoint"/>
+                        <mxPoint x="699" y="593" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-40" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="[petugas menolak]" vertex="1">
+                    <mxGeometry height="14" width="178" x="233" y="596" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-41" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=bottom;fontSize=8;fontFamily=Helvetica;" value="9. mengubah status menjadi Ditolak" vertex="1">
+                    <mxGeometry height="26" width="178" x="435" y="616" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-42" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="429" y="648" as="sourcePoint"/>
+                        <mxPoint x="617" y="648" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-43" parent="1" style="text;html=1;whiteSpace=wrap;align=left;verticalAlign=middle;fontSize=8;spacingLeft=2;fontFamily=Helvetica;" value="10. menampilkan hasil keputusan" vertex="1">
+                    <mxGeometry height="17" width="178" x="233" y="682" as="geometry"/>
+                </mxCell>
+                <mxCell id="pyR40TqzCB8AxNBXZEKA-44" edge="1" parent="1" style="endArrow=block;endFill=1;html=1;strokeColor=#000000;">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="417" y="702" as="sourcePoint"/>
+                        <mxPoint x="223" y="702" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
